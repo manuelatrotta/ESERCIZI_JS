@@ -253,6 +253,52 @@ console.log(upp);
 console.log(lower);
 
 
+/** esercizio 3
+ * 
+ * partendo da un Array di prodotti genera un array contenente il valore totale dei prodotti presenti
+ * 
+ * esempio 
+ * 
+ * const prodotti = [
+ *      {
+ *         nomeProdotto:"mac book pro",
+ *         prezzo:3000,
+ *         quantita:15;
+ *      },
+ *      {
+ *         nomeProdotto:"samsung 9plus",
+ *         prezzo:935,
+ *         quantita:5;
+ *      },
+ *      {
+ *         nomeProdotto:"synology",
+ *         prezzo:900,
+ *         quantita:3;
+ *      },
+ * ]
+*/
+
+/** map() - esercizio 4 
+ * trasforma un array di stringhe in un array di numeri
+ * 
+ * const stringhe = ['1','2','3','4','5'];
+ * 
+
+ * 
+ */
+
+const stringhe = ['1','2','3','4','5'].map((element) => {
+  return parseInt(element);
+})
+
+console.log(stringhe);
+
+
+
+
+
+
+
 
 
 
