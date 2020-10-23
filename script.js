@@ -229,7 +229,7 @@ console.log(posts);
 
 
 
-/** esercizio 2
+/* * esercizio 2
 
  * 
  * esempio 
@@ -239,6 +239,18 @@ console.log(posts);
  * (geronimo) => geronimo
  * 
  */
+
+const stringa1 = "allons y";
+
+const stringa2 = "geronimo";
+
+const upp = stringa1.toUpperCase();
+
+const lower = stringa2.toLowerCase();
+
+console.log(upp);
+
+console.log(lower);
 
 
 
